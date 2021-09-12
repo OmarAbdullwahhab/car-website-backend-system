@@ -1,27 +1,36 @@
-# JDND
-This is a **DEPRECATED** repository for the Java Developer Nanodegree (ND035) program. The current repository has been split into the separate repositories associated with the individual courses in the Nanodegree. Therefore, go to the suitable new repository, as mentioned below:
+## About this Repository
+This repository is related to the Java Web Developer (ND035), Course - **Web Services and APIs**
 
-## If you are enrolled in ND035 v1:
+It contains the following folders:
+1. Exercise-Lesson2: Contains the classroom exercise
+2. P02-VehiclesAPI: This folder contains a project readme file that has the instructions to follow
 
-* Course 2  Java Basics: [nd035-v1-C1-Java-Basics-Exercises-and-Project-Starter](https://github.com/udacity/nd035-v1-C1-Java-Basics-Exercises-and-Project-Starter)
+>**Note**: Generally, you cannot clone a particular folder to your local system. Instead, you clone the *entire repository*, as explained below:
 
-* Course 3 Web Services and APIs (common to ND035 v1 and v2): [nd035-C2-Web-Services-and-APIs-Exercises-and-Project-Starter](https://github.com/udacity/nd035-C2-Web-Services-and-APIs-Exercises-and-Project-Starter)
+### How to clone this repository
+#### Step 1 - Fork the repository
+Make a copy of this repository in your Github account. You can do so by clicking `Fork` on the top right corner of this repository. 
+<br>
+<br>
 
-* Course 4 Data Stores & Persistence: [nd035-v1-C3-Data-Stores-and-Persistence](https://github.com/udacity/nd035-v1-C3-Data-Stores-and-Persistence)
-
-* Course 5 Security and DevOps (common to ND035 v1 and v2): [nd035-c4-Security-and-DevOps (multiple branches)](https://github.com/udacity/nd035-c4-Security-and-DevOps)
-
-## If you are enrolled in ND035 v2:
-
-* Course 2 Spring Boot Basics:
- 1. [nd035-c1-spring-boot-basics-examples](https://github.com/udacity/nd035-c1-spring-boot-basics-examples)
- 2. [nd035-c1-spring-boot-basics-project-starter](https://github.com/udacity/nd035-c1-spring-boot-basics-project-starter)
-
-* Course 3 (same as mentioned in the ND035 v1)
+#### Step 2
+Once a copy of the repository is forked to your Github account, you can copy the repository HTTP URL, such as `https://github.com/YOUR_ACCOUNT_NAME/nd035-C2-Web-Services-and-APIs-Exercises-and-Project-Starter.git`
 
 
-* Course 4 Data Stores and Persistence: [nd035-c3-data-stores-and-persistence-project-starter](https://github.com/udacity/nd035-c3-data-stores-and-persistence-project-starter)
+Now, you will need to clone (download) the repository locally in your system. There are two ways to clone this repository locally (choose any one):
+1. **Download the repo using the command-line terminal**:
+You can run the following commands in your terminal (macOS/Linux)/Gitbash (Windows). In the first command, use the HTTPS URL copied in the step above. 
+```bash
+git clone https://github.com/udacity/nd035-C2-Web-Services-and-APIs-Exercises-and-Project-Starter.git
+cd nd035-C2-Web-Services-and-APIs-Exercises-and-Project-Starter
+```
 
 
-* Course 5 (same as mentioned in the ND035 v1)
+2. **Clone directly in your IntelliJ IDE**: 
+IntelliJ provides VCS (Version Control System) menu to import a Github repository directly into your IntelliJ IDE. You can even perform all standard operations within your IDE, such as, add, commit, push, pull, merge, switch branch, etc. For more info, refer to the blog [Clone a Project from GitHub](https://blog.jetbrains.com/idea/2020/10/clone-a-project-from-github/), or [Instructions to Importing a project ](https://www.jetbrains.com/help/idea/import-project-or-module-wizard.html)
 
+>**Note** - If the imported project is not shown as a Maven project, simply right-click on the `pom.xml` file, and choose to add it as a Maven project.
+
+
+## License
+[License](LICENSE.txt)
