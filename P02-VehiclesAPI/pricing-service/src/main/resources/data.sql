@@ -1,0 +1,5 @@
+insert into PRICES (VEHICLE_ID,CURRENCY, PRICE) values (1,'SAR', 25000.00);
+insert into PRICES (VEHICLE_ID,CURRENCY, PRICE) values (2,'EGY', 25015.00);
+insert into PRICES (VEHICLE_ID,CURRENCY, PRICE) values (3,'USD', 29000.00);
+insert into PRICES (VEHICLE_ID,CURRENCY, PRICE) values (4,'SAR', 25100.00);
+insert into PRICES (VEHICLE_ID,CURRENCY, PRICE) values (5,'SAR', 25500.00);
