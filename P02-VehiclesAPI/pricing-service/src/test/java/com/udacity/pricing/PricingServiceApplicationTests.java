@@ -41,7 +41,7 @@ public class PricingServiceApplicationTests {
 	{
 		var count = this.priceRepository.count();
 
-		Price p = new Price( "SAR", new BigDecimal("25000.00"), 1l);
+		Price p = new Price( "SAR", new BigDecimal("25000.00"), count + 1);
 		this.priceRepository.save(p);
 		assertEquals(count + 1, this.priceRepository.count());
 
