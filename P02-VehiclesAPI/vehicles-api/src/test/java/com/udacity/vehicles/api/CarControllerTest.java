@@ -98,7 +98,7 @@ public class CarControllerTest {
          */
         Car firstCar = getCar();
         firstCar.setId(1L);
-       mvc.perform(get(new URI("/cars")).accept(MediaType.APPLICATION_JSON_UTF8)).andExpect(status().isOk());
+        mvc.perform(get(new URI("/cars")).accept(MediaType.APPLICATION_JSON_UTF8)).andExpect(status().isOk());
 
     }
 
@@ -114,8 +114,8 @@ public class CarControllerTest {
          */
         Car firstCar = getCar();
         firstCar.setId(1L);
-        mvc.perform(get(new URI("/cars/" + firstCar.getId())).
-                accept(MediaType.APPLICATION_JSON_UTF8)).andExpect(status().isOk());
+        mvc.perform(get(new URI("/cars/" + firstCar.getId()))
+                .accept(MediaType.APPLICATION_JSON_UTF8)).andExpect(status().isOk());
 
     }
 
@@ -130,6 +130,10 @@ public class CarControllerTest {
          *   when the `delete` method is called from the Car Controller. This
          *   should utilize the car from `getCar()` below.
          */
+        Car car = getCar();
+        car.setId(1l);
+        mvc.perform(delete(new URI("/cars/"+car.getId()))
+                .accept(MediaType.APPLICATION_JSON_UTF8)).andExpect(status().isNoContent());
     }
 
     /**
